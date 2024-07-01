@@ -23,7 +23,7 @@ test.describe('Smoke Test Suite', () => {
         await expect(page).toHaveURL(process.env.HOMEPAGE_URL);
     });
 
-    test('Can see filtered data in population manager tab', async () => {
-        // Add specific steps here
+    test('Can see data in service location tab', async () => {
+        // TODO: Get requirements for Service Location Tab
     });
 });
