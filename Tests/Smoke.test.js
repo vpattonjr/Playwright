@@ -18,7 +18,7 @@ test.describe('Smoke Test Suite', () => {
         await setup.teardown();
     });
 
-    test('Can login', async () => {
+    test('Can login and the displayed page looks like you are logged in', async () => {
         await loginController.login(process.env.USER_NAME, process.env.PASSWORD);
         await expect(page).toHaveURL(process.env.HOMEPAGE_URL);
     });
