@@ -1,0 +1,29 @@
+{
+    "name": "playwright-testing-framework",
+    "version": "1.0.0",
+    "description": "A Playwright-based testing framework for automated end-to-end testing of web applications.",
+    "main": "index.js",
+    "scripts": {
+      "test": "playwright test",
+      "test:headed": "playwright test --headed",
+      "test:debug": "playwright test --debug",
+      "report": "npx playwright show-report"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+      "dotenv": "^10.0.0",
+      "@playwright/test": "^1.15.0"
+    },
+    "devDependencies": {
+      "monocart-reporter": "^1.2.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/your-username/playwright-testing-framework.git"
+    },
+    "bugs": {
+      "url": "https://github.com/your-username/playwright-testing-framework/issues"
+    },
+    "homepage": "https://github.com/your-username/playwright-testing-framework#readme"
+  }
